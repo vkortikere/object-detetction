@@ -1,0 +1,28 @@
+body{
+    background-size:cover;
+    background-position:center;
+}
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+#status
+{
+font-size: 18px;
+}
+canvas{
+    box-shadow:10px 10px 10px white;
+    border-radius:10px;
+}
+#fruit, #giraffe, #elephant, #zebra, #dog2{
+width:120px;
+font-weight:bold;
+border-color:white;
+border-width:3px;
+margin-right:10px;
+margin-left:10px;
+}
+
