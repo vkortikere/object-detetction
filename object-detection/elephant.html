@@ -13,14 +13,20 @@
   
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
-<body background="background.jpg">
+<style>
+  #back{
+   float:right;
+   width:100px;
+  }
+</style>
+<body background="background2.png">
   <center>
-    <h1 class="btn btn-info heading">Object Detection</h1>
-  
+    <h1 class="btn btn-info heading">Object Detection - Elephant <button  class="btn btn-success" id="back" onclick="back()">Back</button></h1>
+    <h3 id="status" class="btn btn-danger"></h3>
+
   </center>
 
 
-
+  <script src="elephant.js"></script>
 </body>
 </html>
